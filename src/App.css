@@ -1,0 +1,77 @@
+body{
+  background-color:#FF7B54;
+ 
+  max-width: 100%;
+}
+.center{
+ display: flex;
+ justify-content: center;
+}
+
+.crossed {
+  text-decoration: line-through 2px #939B62;
+  background-color: #FF7B54;
+
+
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  color: #939B62;
+  text-shadow: 2px 2px black;
+  font-size: 50px;
+}
+input{
+  padding-left: 20px;
+  margin: 10px;
+  font-family: 'Roboto', sans-serif;
+  width:40%;
+  color:black;
+  font-size:16px;
+
+}
+.btnAdd{
+  padding: 5px;
+  margin: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  background-color: #FFB26B;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+.btnDelete{
+  padding: 5px;
+  margin: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  background-color: #FFB26B;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #FFD56F;
+  text-shadow: 2px 2px black;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 40em) {
+
+  input{
+  
+    font-size:10px;
+  
+  }
+
+
+}
